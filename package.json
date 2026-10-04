@@ -1,0 +1,38 @@
+{
+	"name": "bikini-atoll",
+	"displayName": "Bikini Atoll",
+	"description": "Dark theme with no syntax highlighting",
+	"publisher": "iliaskarim",
+	"repository": "https://github.com/iliaskarim/bikini-atoll",
+	"license": "MIT",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.54.0"
+	},
+	"icon": "bikini-atoll.png",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"syntax off",
+		"no syntax highlighting",
+		"dark"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Bikini Atoll",
+				"uiTheme": "vs-dark",
+				"path": "./themes/bikini-atoll-color-theme.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"vsce": "^2.15.0"
+	},
+	"scripts": {
+		"login": "vsce login iliaskarim",
+		"package": "vsce package",
+		"publish": "vsce publish"
+	}
+}

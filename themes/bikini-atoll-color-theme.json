@@ -1,0 +1,38 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "type": "dark",
+  "include": "./cursor-dark-color-theme.json",
+  "colors": {
+    "editor.foreground": "#dadada",
+    "editorLineNumber.activeForeground": "#dadada",
+    "terminal.background": "#000000",
+    "terminal.foreground": "#555555",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiRed": "#555555",
+    "terminal.ansiGreen": "#555555",
+    "terminal.ansiYellow": "#555555",
+    "terminal.ansiBlue": "#555555",
+    "terminal.ansiMagenta": "#555555",
+    "terminal.ansiCyan": "#555555",
+    "terminal.ansiWhite": "#555555",
+    "terminal.ansiBrightBlack": "#555555",
+    "terminal.ansiBrightRed": "#555555",
+    "terminal.ansiBrightGreen": "#555555",
+    "terminal.ansiBrightYellow": "#555555",
+    "terminal.ansiBrightBlue": "#555555",
+    "terminal.ansiBrightMagenta": "#555555",
+    "terminal.ansiBrightCyan": "#555555",
+    "terminal.ansiBrightWhite": "#555555",
+    "terminal.selectionBackground": "#555555",
+    "terminal.selectionForeground": "#000000",
+    "terminalCursor.foreground": "#555555"
+  },
+  "semanticHighlighting": false,
+  "tokenColors": [
+    {
+      "settings": {
+        "foreground": "#dadada"
+      }
+    }
+  ]
+}
