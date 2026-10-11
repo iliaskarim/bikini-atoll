@@ -71,7 +71,9 @@
     "editor.wordHighlightStrongBackground": "#00000000",
     "editor.selectionHighlightBackground": "#40404066",
     "editorUnnecessaryCode.opacity": "#00000000",
-    "editorUnnecessaryCode.border": "#00000000"
+    "editorUnnecessaryCode.border": "#00000000",
+    "editorCursor.foreground": "#ffffff",
+    "editorCursor.background": "#181818"
   },
   "semanticHighlighting": false,
   "semanticTokenColors": {
