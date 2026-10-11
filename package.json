@@ -5,7 +5,7 @@
 	"publisher": "iliaskarim",
 	"repository": "https://github.com/iliaskarim/bikini-atoll",
 	"license": "MIT",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.54.0"
 	},
