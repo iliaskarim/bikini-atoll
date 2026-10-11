@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Flattened VS Code bracket pair colorization (`editorBracketHighlight.foreground1`–`foreground6`, unexpected brackets, and bracket pair guides) to `#dadada` so braces/parentheses stay monochrome; matching-brace highlight remains a subtle background wash with no border.
 - Flattened TextMate and semantic token colors to `#dadada` so identifier scopes (e.g. function names) stay monochrome instead of inheriting Dark+ hues.
 - Neutralized unused-code fade via `editorUnnecessaryCode.opacity` / `border` so unused symbols are not dimmed relative to other text.
 - Set `editorBracketMatch.border` transparent so matching braces use a subtle background wash only (no outline box).
