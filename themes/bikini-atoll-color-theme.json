@@ -69,42 +69,202 @@
     "editorSuggestWidget.highlightForeground": "#dadada",
     "editor.wordHighlightBackground": "#00000000",
     "editor.wordHighlightStrongBackground": "#00000000",
-    "editor.selectionHighlightBackground": "#40404066"
+    "editor.selectionHighlightBackground": "#40404066",
+    "editorUnnecessaryCode.opacity": "#00000000",
+    "editorUnnecessaryCode.border": "#00000000"
   },
   "semanticHighlighting": false,
   "semanticTokenColors": {
-    "*": "#dadada",
-    "namespace": "#dadada",
-    "type": "#dadada",
-    "class": "#dadada",
-    "enum": "#dadada",
-    "interface": "#dadada",
-    "struct": "#dadada",
-    "typeParameter": "#dadada",
-    "parameter": "#dadada",
-    "variable": "#dadada",
-    "property": "#dadada",
-    "enumMember": "#dadada",
-    "event": "#dadada",
-    "function": "#dadada",
-    "method": "#dadada",
-    "macro": "#dadada",
-    "label": "#dadada",
-    "comment": "#dadada",
-    "string": "#dadada",
-    "keyword": "#dadada",
-    "number": "#dadada",
-    "regexp": "#dadada",
-    "operator": "#dadada"
+    "*": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "namespace": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "type": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "class": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "enum": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "interface": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "struct": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "typeParameter": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "parameter": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "variable": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "property": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "enumMember": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "event": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "function": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "method": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "macro": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "label": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "comment": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "string": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "keyword": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "number": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "regexp": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "operator": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "function.declaration": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "method.declaration": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "class.declaration": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "variable.declaration": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "property.declaration": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "*.declaration": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    },
+    "*.defaultLibrary": {
+      "foreground": "#dadada",
+      "bold": false,
+      "italic": false,
+      "underline": false
+    }
   },
   "tokenColors": [
     {
       "settings": {
-        "foreground": "#dadada"
+        "foreground": "#dadada",
+        "fontStyle": ""
       }
     },
     {
-      "name": "Flatten all TextMate scopes (override Dark+ defaults)",
+      "name": "Flatten scopes; no bold/italic",
       "scope": [
         "comment",
         "comment.block",
@@ -164,7 +324,20 @@
         "invalid.illegal",
         "invalid.deprecated",
         "markup",
-        "source"
+        "source",
+        "entity.name.function.ts",
+        "entity.name.type.alias.ts",
+        "entity.name.type.interface.ts",
+        "variable.other.readwrite.ts",
+        "variable.other.object.ts",
+        "variable.other.constant.ts",
+        "storage.type.ts",
+        "storage.type.function.ts",
+        "keyword.control.import.ts",
+        "keyword.control.from.ts",
+        "string.quoted.double.ts",
+        "string.quoted.single.ts",
+        "constant.numeric.decimal.ts"
       ],
       "settings": {
         "foreground": "#dadada",
