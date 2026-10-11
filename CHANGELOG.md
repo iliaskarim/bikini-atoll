@@ -19,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Marketplace README screenshot showing Bikini Atoll in the editor with the terminal open.
 
-## [1.0.0] - 2024-01-01
+## [1.0.0] - 2026-10-04
 
 ### Added
 
